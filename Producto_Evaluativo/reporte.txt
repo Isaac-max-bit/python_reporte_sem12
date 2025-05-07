@@ -1,0 +1,91 @@
+﻿1. Total de registros: 100000
+
+2. Ventas por estado:
+ESTADO
+Cerrado      33431
+Cancelado    33306
+Pendiente    33263
+Name: count, dtype: int64
+
+3. Valor total de ventas: 852052856596.0599
+
+4. Promedio de comisión por venta cerrada: 426257.1935329485
+
+5. Ciudad con más ventas cerradas: Cali
+
+6. Valor total de ventas por ciudad:
+CIUDAD
+Barranquilla    1.705151e+11
+Bogotá          1.724112e+11
+Cali            1.700313e+11
+Cartagena       1.711758e+11
+Medellín        1.679194e+11
+Name: VALOR_VENTA, dtype: float64
+
+7. 5 productos más vendidos:
+PRODUCTO
+Tablet       20106
+Impresora    20009
+Monitor      20005
+Celular      19999
+Laptop       19881
+Name: count, dtype: int64
+
+8. Total de productos únicos vendidos: 5
+
+9. Vendedor con más ventas cerradas: Carlos Ruiz
+
+10. Categoría con mayor ingreso total: Tecnología
+
+11. Venta más alta:
+                  CLIENTE  VALOR_VENTA
+11506  Michael Williamson   29999831.5
+
+12. Ventas inválidas (valor/comisión <= 0):
+Empty DataFrame
+Columns: [CLIENTE, PRODUCTO, PRECIO, CANTIDAD, CIUDAD, VENDEDOR, FECHA, ESTADO, VALOR_VENTA, COMISION, CATEGORIA, UTILIDAD, MES, TRIMESTRE]
+Index: []
+
+13. Media de ventas por mes:
+MES
+1     8.565038e+06
+2     8.517034e+06
+3     8.537566e+06
+4     8.511724e+06
+5     8.393431e+06
+6     8.599367e+06
+7     8.499688e+06
+8     8.471436e+06
+9     8.641475e+06
+10    8.476836e+06
+11    8.524245e+06
+12    8.516164e+06
+Name: VALOR_VENTA, dtype: float64
+
+14. Mes con más ventas cerradas: 1
+
+16. Ventas por trimestre:
+TRIMESTRE
+2024Q4    25049
+2025Q1    24939
+2024Q3    24861
+2024Q2    15250
+2025Q2     9901
+Freq: Q-DEC, Name: count, dtype: int64
+
+17. Productos vendidos en más de 3 ciudades:
+PRODUCTO
+Celular      5
+Impresora    5
+Laptop       5
+Monitor      5
+Tablet       5
+Name: CIUDAD, dtype: int64
+
+18. Registros duplicados: 0
+
+19. Registros después de eliminar nulos: 100000
+
+20. Producto con mayor utilidad:
+Tablet
+
